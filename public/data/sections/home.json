@@ -46,6 +46,19 @@
         },
 
         {
+            "component": "ArticleVideoEmbed",
+            "id": "latestVideo",
+            "locales": {
+                "en": {
+                    "title": "Latest Video",
+                    "apiKey": "x",
+                    "channelId": "x"
+                }
+            }
+        },
+
+        
+        {
             "id": "interests",
             "component": "ArticleGrid",
             "config": {
