@@ -1,0 +1,97 @@
+{
+    "locales": {
+        "en": {
+            "title": "Guides",
+            "title_long_prefix": "",
+            "title_long": "PvP **Guides**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+            "categories": [
+                {
+                    "id": "Essentials",
+                    "locales": {
+                        "en": {"singular": "Essential", "plural": "Essentials"}
+                    }
+                },
+                {
+                    "id": "Mechanics",
+                    "locales": {
+                        "en": {"singular": "Mechanics", "plural": "Mechanics"}
+                    }
+                },
+                {
+                    "id": "PvP",
+                    "locales": {
+                        "en": {"singular": "PvP", "plural": "PvP"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "Essentials",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-hand-fist",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://youtu.be/S0Mn0XfU-jI?si=ija4m1a2SfU5nrQ4",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Ganking 101",
+                            "text": "Covering essential strategies and techniques for effective ganking in Albion Online, focusing on baseline knowledge, item and ability usage, sound cues, and positioning. It also includes group composition tips, build examples, and strategies for maximizing success in PvP encounters while minimizing risks.",
+                            "tags": ["PvP", "Mechanics", "Essentials"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "Mechanics",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-sharp-duotone fa-solid fa-shield-halved",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://youtu.be/A-maJFl1qrM",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Survival 101",
+                            "text": "Description",
+                            "tags": ["PvP", "Mechanics", "Essentials"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

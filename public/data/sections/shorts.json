@@ -1,0 +1,97 @@
+{
+    "locales": {
+        "en": {
+            "title": "Shorts",
+            "title_long_prefix": "",
+            "title_long": "Youtube Shorts"
+        }
+    },
+	
+	"articles": [
+	    {
+	        "id": "portfolio",
+	        "component": "ArticlePortfolio",
+	        "config": {},
+	        "locales": {},
+			"categories": [
+                {
+                    "id": "Ganking 101",
+                    "locales": {
+                        "en": {"singular": "Ganking 101", "plural": "Ganking 101"}
+                    }
+                },
+                {
+                    "id": "Survival 101",
+                    "locales": {
+                        "en": {"singular": "Survival 101", "plural": "Survival 101"}
+                    }
+                },
+                {
+                    "id": "PvP",
+                    "locales": {
+                        "en": {"singular": "PvP", "plural": "PvP"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "Ganking 101",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-binoculars",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://youtu.be/S0Mn0XfU-jI?si=ija4m1a2SfU5nrQ4",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Scouting Enemies",
+                            "text": "Description",
+                            "tags": ["PvP", "Mechanics", "Essentials"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "Survival 101",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-person-running",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://youtu.be/A-maJFl1qrM",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "How to Survive",
+                            "text": "Description",
+                            "tags": ["PvP", "Mechanics", "Essentials"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

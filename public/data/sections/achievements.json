@@ -5,27 +5,6 @@
             "title_menu": "Achievements",
             "title_long_prefix": "Here are my",
             "title_long": "Career **Achievements**"
-        },
-
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
-        },
-
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
-        },
-
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
         }
     },
 
@@ -35,10 +14,7 @@
             "component": "ArticleCards",
             "config": {},
             "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
+                "en": { "title": "Certifications" }
             },
 
             "items": [
@@ -59,15 +35,6 @@
                         "en": {
                             "title": "The **Linux Foundation**",
                             "text": "Certified Kubernetes Administrator (CKA)"
-                        },
-                        "es": {
-                            "text": "Administrador Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "인증된 쿠버네티스 관리자 (CKA)"
                         }
                     }
                 },
@@ -88,15 +55,6 @@
                         "en": {
                             "title": "**Amazon** Web Services",
                             "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS – Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
                         }
                     }
                 },

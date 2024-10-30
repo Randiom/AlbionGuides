@@ -1,0 +1,151 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "Home",
+            "title_long_prefix": "",
+            "title_long": "Welcome to **AlbionGuides.com!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": { 
+                "en": {}
+            },
+
+            "items": [
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "What is this **about?**"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "**AlbionGuides.com** is a dedicated resource for players of all skill-levels which aims to provide in-depth guides, tips, and strategies designed to help players navigate and excel in the gameworld. From understanding basic gameplay mechanics to mastering advanced PvP tactics, AlbionGuides.com covers a range of topics suited for both newcomers and experienced players."}                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "What can you **expect?**"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-regular fa-heart",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Albion Enjoyer",
+                            "info": "You will start enjoying the game (most likely)"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-scroll",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Patchnote Meta Slave",
+                            "info": "Patchnotes are the bread and butter of the PvP Metashifts"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-halved",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Defensive God",
+                            "info": "Knowing when and where to use defensives"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-headset",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Improved Communication",
+                            "info": "With more knowledge comes greater gamesense"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Comprehensive Guides",
+                            "info": "The guides aims to be both comprehensive and filled to the brim with easily digestable content"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-ghost",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Immortality",
+                            "info": "oh well, you will die less often atleast"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

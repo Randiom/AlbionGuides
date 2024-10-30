@@ -1,37 +1,31 @@
 {
     "version": "1.0.0",
-    "animatedCursorEnabled": true,
-    "fullScreenButtonEnabled": true,
+    "animatedCursorEnabled": false,
+    "fullScreenButtonEnabled": false,
 
     "preloader": {
         "enabled": true,
-        "title": "React <b>Portfolio</b>",
-        "subtitle": "by Ryan Balieiro"
+        "title": "Welcome to <b>AlbionGuides.com</b>",
+        "subtitle": "Loading..."
     },
 
     "profile": {
-        "name": "Mark Choi",
-        "stylizedName": "<strong>Mark **Choi**</strong>",
+        "name": "Randiom",
+        "stylizedName": "<strong>Randiom</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "en": {"role": "Web Developer"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "en": {"role": "Content Creator"}
         }
     },
 
     "status": {
-        "visible": true,
-        "available": true,
+        "visible": false,
+        "available": false,
 
         "locales": {
-            "en": {"message": "Available for freelance!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
-            "ko": {"message": "프리랜스 가능합니다!"}
+            "en": {"message": "x"}
         }
     },
 
@@ -55,24 +49,6 @@
             "id": "en",
             "flagUrl": "images/flags/en.png",
             "default": true
-        },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-
-        {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
         }
     ],
 

@@ -1,0 +1,36 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Patchnotes",
+            "title_long_prefix": "",
+            "title_long": "Recent **Patchnotes**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tablet-screen-button",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "test",
+                            "info": "test"
+                        }
+                    }
+                }
+
+            ]
+        }
+    ]
+}
